@@ -108,6 +108,7 @@ function App() {
   return (
     <>
       <h1 className="title">Image Gallery</h1>
+      <p className="desc">Explore | Discover | Enjoy✨</p>
       <div className="gallery">
         {
           images.map((item) =>(
