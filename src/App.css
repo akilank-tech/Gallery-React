@@ -18,7 +18,8 @@
   text-align: center;
   color: purple;
 }
-.desc{
+
+.desc {
   text-align: center;
   color: purple;
 }
@@ -36,7 +37,8 @@
   width: 200px;
   height: 250px;
 }
-.image-card h2{
+
+.image-card h2 {
   color: purple;
 }
 
@@ -50,6 +52,7 @@
     flex-grow: 1;
   }
 }
+
 @media screen and (max-width: 600px) {
   .image-card {
     flex-basis: 50%;
@@ -57,4 +60,8 @@
     flex-grow: 0;
   }
 
+  .image-card img {
+    width: 180px;
+    height: 230px;
+  }
 }
