@@ -52,8 +52,7 @@
 }
 @media screen and (max-width: 600px) {
   .image-card {
-    flex-basis: 100%;
-    width: 90%;
+    flex-basis: 40%;
     flex-grow: 1;
   }
 
