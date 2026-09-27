@@ -1,23 +1,53 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-.gallery{
+
+.gallery {
+  background-color: rgb(250, 131, 250);
+  padding: 10px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }
-.title{
+
+.title {
   text-align: center;
   padding: 20px;
+  color: purple;
 }
-.image-card{
-  background-color: antiquewhite;
-  padding: 20px;
+
+.image-card {
+  padding: 10px;
+  background-color: rgb(247, 168, 247);
+  color: white;
   flex-basis: 20%;
   flex-grow: 1;
+  border-radius: 10px;
 }
-.image-card img{
+
+.image-card img {
   width: 200px;
   height: 250px;
+}
+.image-card h2{
+  color: purple;
+}
+
+@media screen and(max-width: 800px) {
+  body {
+    font-size: 12px;
+  }
+
+  .image-card {
+    flex-basis: 40%;
+    flex-grow: 1;
+  }
+}
+@media screen and(max-width: 600px) {
+  .image-card {
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
 }
